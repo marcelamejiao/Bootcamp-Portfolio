@@ -87,6 +87,7 @@ img figcaption{
     display: flex;
     flex-direction: row;
     justify-content: start;
+    align-items: center;
 }
 
 /* .box-info > * {
@@ -99,20 +100,9 @@ img figcaption{
     width: 100%;
 }
 
-footer section ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-
-    
-}
-    
-footer section ul li {
-    display: inline-block; 
-    color: #00060b;
-    padding: 14px 20px;
-    text-decoration: none;
-}
+footer section a {
+    flex-grow: 1;
+} 
 
 @media screen and (max-width: 992px) {
     
