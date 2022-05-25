@@ -15,6 +15,7 @@ h1{
     font-weight: bold;
     font-size: 350%;
     font-family: 'Tangerine', 'serif';
+    text-shadow: 2px 2px 2px rgb(254 215 255);
 }
 
 h2{
@@ -23,6 +24,7 @@ h2{
     color: rgb(97, 96, 96);
     font-size: xxx-large;
     font-family: 'Tangerine', 'serif';
+    text-shadow: 2px 2px 2px rgb(254 215 255)
 }
 
 nav {
@@ -43,6 +45,15 @@ nav a {
     background-image: url("./images/vertical.jpg");
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+.hero h2 {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    padding: 1vw;
+    text-shadow: 2px 2px 2px rgb(254 215 255);
 }
 
 .box-info > header {
@@ -96,6 +107,11 @@ nav a {
     font-size: 2vw;
 }
 
+#work figure figcaption p {
+    font-size: smaller;
+    color:#ffecc8;
+}
+
 .content .first-project {
     display: flex;
     justify-content: center;
@@ -146,9 +162,14 @@ nav a {
     margin-bottom: 1em;
 }
 
+footer .box-info .content {
+    height: 15vh;
+}
+
 footer .box-info .content a {
     flex-grow: 1;
     text-align: center;
+    color: #00060b;
 } 
 
 @media screen and (min-width: 992px) {
