@@ -110,6 +110,7 @@ img figcaption{
 
 footer .box-info .content a {
     flex-grow: 1;
+    text-align: center;
 } 
 
 @media screen and (max-width: 992px) {
