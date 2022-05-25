@@ -1,10 +1,15 @@
-*{
+/* Change whole body background color and font family*/
+* {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: linear-gradient(
         rgba(209, 205, 209, 0.3) 0%,
         rgba(230, 245, 248, 0.6) 100%
     );
 }
+
+/**
+ * Title and subtitle styling 
+ **/
 
 h1{
     flex-grow: 1;
@@ -27,6 +32,10 @@ h2{
     text-shadow: 2px 2px 2px rgb(254 215 255)
 }
 
+/**
+ * Style top navigations links 
+ **/
+
 nav {
     display: flex;
     justify-content: right;
@@ -38,6 +47,10 @@ nav a {
     padding: 14px 20px;
     text-decoration: none;
 }
+
+/**
+ * Style hero banner 
+ **/
 
 .hero {
     height: 10vw;
@@ -55,6 +68,10 @@ nav a {
     padding: 1vw;
     text-shadow: 2px 2px 2px rgb(254 215 255);
 }
+
+/** 
+ * Style About me section 
+ **/
 
 #about-me .content img {
     width: 14vw;
@@ -81,6 +98,10 @@ nav a {
     padding-bottom: 0.5vw;
     text-align: center;
 }
+
+/** 
+ * Style box-info class and its children
+ **/
 
 .box-info > header {
     
@@ -113,6 +134,10 @@ nav a {
     margin-inline-end: 3vw;
 }
 
+/** 
+ * Style Work section and each image
+ **/
+
 #work .content {
     display:flex;
     flex-direction: column;
@@ -138,6 +163,9 @@ nav a {
     color:#ffecc8;
 }
 
+/** 
+ * Style specifically the first-project and other-projects images
+ **/
 .content .first-project {
     display: flex;
     justify-content: center;
@@ -173,6 +201,9 @@ nav a {
     justify-content: center;
 }
 
+/** 
+ * Style footer links 
+ **/
 footer .box-info .content {
     height: 15vh;
 }
@@ -185,6 +216,7 @@ footer .box-info .content a {
     padding-bottom: 0.5vw;
 }
 
+/* Style responsive design for diverse screens */
 @media screen and (max-width: 576px) {
     h1 {
         font-size: 5vw;
