@@ -73,8 +73,8 @@ nav a {
 {
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
+    margin-inline-start: 3vw;
+    margin-inline-end: 3vw;
 }
 
 #work .content {
@@ -180,5 +180,13 @@ footer .box-info .content a {
 
     nav a {
         font-size: 2vw;
+    }
+
+    footer a {
+        font-size: 2vw;
+    }
+
+    .content .other-projects figure {
+        max-width: 42%;
     }
 }
