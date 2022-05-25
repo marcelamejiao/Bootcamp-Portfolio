@@ -42,7 +42,7 @@ nav a {
 .hero {
     height: 10vw;
     width: 100%;
-    background-image: url("./images/vertical.jpg");
+    background-image: url("../images/vertical.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
