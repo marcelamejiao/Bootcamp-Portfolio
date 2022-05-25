@@ -170,18 +170,6 @@ footer .box-info .content a {
     flex-grow: 1;
     text-align: center;
     color: #00060b;
-} 
-
-@media screen and (min-width: 992px) {
-    
-}
-
-@media screen and (max-width: 992px) {
-
-}
-
-@media screen and (max-width: 768px) {
-    
 }
 
 @media screen and (max-width: 576px) {
