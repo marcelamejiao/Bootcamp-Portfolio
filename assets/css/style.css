@@ -9,19 +9,19 @@
 h1{
     flex-grow: 1;
     padding: 0px;
-   
     margin: 0px;
-    color: rgb(97, 96, 96) ;
+    color: rgb(69, 64, 64) ;
     font-weight: bold;
     font-size: 350%;
     font-family: 'Tangerine', 'serif';
     text-shadow: 2px 2px 2px rgb(254 215 255);
+    background-color: #dde3e9;
 }
 
 h2{
     text-align: right;
     margin-right: 20px;
-    color: rgb(97, 96, 96);
+    color: rgb(69, 64, 64);
     font-size: xxx-large;
     font-family: 'Tangerine', 'serif';
     text-shadow: 2px 2px 2px rgb(254 215 255)
@@ -54,6 +54,32 @@ nav a {
     right: 0;
     padding: 1vw;
     text-shadow: 2px 2px 2px rgb(254 215 255);
+}
+
+#about-me .content img {
+    width: 14vw;
+    border: 0.5vw solid rgb(105, 68, 104);
+    border-radius: 50%;
+    padding: 0.5vw;
+    margin-left: 3vw;
+    box-shadow: 0.4vw 0.4vw rgb(189, 189, 189);
+}
+
+#about-me .content div {
+    flex-grow: 1;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    justify-items: center;
+}
+
+#about-me .content div p {
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    text-align: center;
 }
 
 .box-info > header {
@@ -147,21 +173,6 @@ nav a {
     justify-content: center;
 }
 
-#about-me .content img {
-    width: 10vw;
-    border: 0.5vw solid rgb(105, 68, 104);
-    border-radius: 50%;
-    padding: 0.5vw;
-    margin-left: 3vw;
-}
-
-#about-me .content p {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
 footer .box-info .content {
     height: 15vh;
 }
@@ -170,6 +181,8 @@ footer .box-info .content a {
     flex-grow: 1;
     text-align: center;
     color: #00060b;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
 }
 
 @media screen and (max-width: 576px) {
