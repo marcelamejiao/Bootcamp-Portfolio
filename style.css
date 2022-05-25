@@ -1,0 +1,133 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(
+        rgba(209, 205, 209, 0.3) 0%,
+        rgba(230, 245, 248, 0.6) 100%
+    );
+}
+
+h1{
+    flex-grow: 1;
+}
+
+
+nav {
+    display: flex;
+    justify-content: right;
+    /* margin-left: 25px; */
+}
+
+nav a {
+    color: #00060b;
+    padding: 14px 20px;
+    text-decoration: none;
+    /* text-align: center; */
+}
+
+.hero {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./images/vertical.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* #work{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-top: 20px;
+    border-bottom: 20px;
+} */
+
+.box-info > header {
+    border-right: solid rgb(140, 67, 213) 10px;
+    width: 15vw;
+    min-width: 15vw;
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+img{
+    flex-grow: 1;
+    box-sizing: border-box ;
+    border-style:dashed;
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 20px 10px 20px 10px;
+    width: 25%;
+    padding: 10px;
+    position: relative;
+    justify-content: center ;
+    /* width: 30%;
+    height: 30%; */  
+}
+
+img figcaption{
+    color: aliceblue;
+    /* box-sizing: border-box ; */
+    border-radius: 8px;
+    /* position: absolute; */
+    background-color: black;
+    border: solid;
+    position:sticky;
+   
+}
+
+.box-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+/* .box-info > * {
+    flex-grow: 1;
+} */
+
+.img-first-project{
+    background-image: url("./images/number1.jpg");
+    height: 200px;
+    width: 100%;
+}
+
+footer section ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+    
+}
+    
+footer section ul li {
+    display: inline-block; 
+    color: #00060b;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+    
+    img {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    img {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 768px) {
+    img {
+        width: 100%;
+    }
+}
