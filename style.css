@@ -94,7 +94,7 @@ nav a {
     border: 5px solid rgb(105, 68, 104);
     padding: 20px;
     font-weight: bold;
-    
+    font-size: 2vw;
 }
 
 .content .first-project {
@@ -125,14 +125,15 @@ nav a {
 
 #about-me .content img {
     width: 10vw;
-    border: 5px solid rgb(105, 68, 104);
+    border: 0.5vw solid rgb(105, 68, 104);
     border-radius: 50%;
-    padding: 10px;
-    margin-left: 40px;
+    padding: 0.5vw;
+    margin-left: 3vw;
 }
 
 #about-me .content p {
     margin-left: 10px;
+    margin-right: 10px;
     margin-top: 1em;
     margin-bottom: 1em;
 }
