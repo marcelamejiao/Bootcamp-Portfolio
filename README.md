@@ -8,7 +8,7 @@ _**This project is about building my own portfolio of work with the purpose of s
 * Creating the HTML structure and CSS styling. 
 * The portfolio display links to navigate the Homepage.
 * A professional description about me, skills and knowledge, also a profile photo. 
-* The portfolio presents a section called work, where it gives access to diverse web develoment aplication by clicking on the photo, focusing the first project as the main one. 
+* The portfolio presents a section called work, where it gives access to diverse web develoment aplications by clicking on the photo and focuses the attention on the main project by enlargening it.
 * The last section provides the contact information with phone number, email, github and twitter links. 
 * The web portfolio is responsive for diverse screen sizes. 
 
