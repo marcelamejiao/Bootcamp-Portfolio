@@ -100,7 +100,15 @@ img figcaption{
     width: 100%;
 }
 
-footer section a {
+.box-info .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-grow: 1;
+}
+
+footer .box-info .content a {
     flex-grow: 1;
 } 
 
