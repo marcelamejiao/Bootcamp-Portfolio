@@ -31,7 +31,7 @@ nav a {
 }
 
 .box-info > header {
-    border-right: solid rgb(140, 67, 213) 10px;
+    
     width: 15vw;
     min-width: 15vw;
 }
@@ -41,6 +41,8 @@ nav a {
     flex-direction: row;
     justify-content: start;
     align-items: center;
+    margin-top: 15px;
+
 }
 
 .box-info .content {
@@ -49,6 +51,7 @@ nav a {
     justify-content: start;
     align-items: center;
     flex-grow: 1;
+    border-left: solid 5px rgb(172, 153, 191);
 }
 
 #work .content {
@@ -64,6 +67,11 @@ nav a {
 
 #work figure figcaption {
     position: absolute;
+    bottom: 10%;
+    border: 7px solid rgb(98, 25, 95);
+    padding: 20px;
+    font-weight: bold;
+    
 }
 
 .content .first-project {
@@ -81,6 +89,7 @@ nav a {
 .content .first-project figure img,
 .content .other-projects figure img {
     flex-grow: 1;
+    border: 7px solid rgb(98, 25, 95);
 }
 
 .content .other-projects {
@@ -92,6 +101,10 @@ nav a {
 
 #about-me .content img {
     width: 10vw;
+    border: 3px solid rgb(98, 25, 95);
+    border-radius: 50%;
+    padding: 10px;
+    ;
 }
 
 footer .box-info .content a {
