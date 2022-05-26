@@ -48,6 +48,11 @@ nav a {
     text-decoration: none;
 }
 
+nav ul {
+    display:flex;
+    flex-direction: row;
+}
+
 /**
  * Style hero banner 
  **/
@@ -152,8 +157,8 @@ nav a {
 #work figure figcaption {
     position: absolute;
     bottom: 10%;
-    border: 5px solid rgb(105, 68, 104);
-    padding: 20px;
+    border: 0.5vw solid rgb(105, 68, 104);
+    padding: 2vw;
     font-weight: bold;
     font-size: 2vw;
 }
@@ -190,7 +195,7 @@ nav a {
 .content .first-project figure img,
 .content .other-projects figure img {
     flex-grow: 1;
-    border: 5px solid rgb(105, 68, 104);
+    border: 0.5vw solid rgb(105, 68, 104);
     max-width: 100%;
 }
 
@@ -216,8 +221,17 @@ footer .box-info .content a {
     padding-bottom: 0.5vw;
 }
 
-/* Style responsive design for diverse screens */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav a {
+        font-size: x-small;
+    }
+
     h1 {
         font-size: 5vw;
     }
@@ -225,9 +239,25 @@ footer .box-info .content a {
     h2 {
         font-size: 5vw;
     }
+}
+
+/* Style responsive design for diverse screens */
+@media screen and (max-width: 576px) {
+    nav ul {
+        display:flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 8vw;
+    }
+
+    h2 {
+        font-size: 6vw;
+    }
 
     p {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     nav a {
@@ -235,6 +265,14 @@ footer .box-info .content a {
     }
 
     footer a.fa {
-        font-size: 2vw;
+        font-size: 3vw;
+    }
+
+    footer .box-info .content {
+        flex-wrap: wrap;
+    }
+
+    footer .box-info .content a {
+        width: 50%;
     }
 }
